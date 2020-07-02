@@ -1,0 +1,26 @@
+[user]
+	name = Sagi Schwarz
+	email = mail@sagischwarz.xyz
+[credential]
+	helper = store
+[core]
+	fileMode = false
+	autocrlf = input
+[color]
+	ui = auto
+[alias]
+	lg = log --branches --tags --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	dt = difftool
+	fm = lg --all -i -F --grep
+[diff]
+	tool = meld
+[merge]
+	tool = meld
+[difftool]
+	prompt = false
+[pull]
+	rebase = true
+[pager]
+	branch = false
+[commit]
+	gpgsign = false
