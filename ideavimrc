@@ -1,0 +1,12 @@
+nnoremap ; :action SearchEverywhere<CR>
+nnoremap <C-c> :action GotoAction<CR>
+nnoremap <C-p> :action SearchEverywhere<CR>
+nnoremap \a :action FindInPath<CR>
+nnoremap \n :action ActivateProjectToolWindow<CR>
+nnoremap qb :action CloseContent<CR>
+nnoremap s :action AceAction<CR>
+
+set ic
+set incsearch
+set multiple-cursors
+set clipboard+=unnamed
