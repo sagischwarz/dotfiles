@@ -1,10 +1,12 @@
-nnoremap ; :action SearchEverywhere<CR>
+nnoremap ; :action RecentFiles<CR>
 nnoremap <C-c> :action GotoAction<CR>
 nnoremap <C-p> :action SearchEverywhere<CR>
 nnoremap \a :action FindInPath<CR>
 nnoremap \n :action ActivateProjectToolWindow<CR>
 nnoremap qb :action CloseContent<CR>
 nnoremap s :action AceAction<CR>
+nnoremap [b :action PreviousTab<CR>
+nnoremap ]b :action NextTab<CR>
 
 set ic
 set incsearch
