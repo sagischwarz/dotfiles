@@ -24,3 +24,5 @@
 	branch = false
 [commit]
 	gpgsign = false
+[init]
+	defaultBranch = main
