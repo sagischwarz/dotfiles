@@ -7,6 +7,7 @@ nnoremap qb :action CloseContent<CR>
 nnoremap s :action AceAction<CR>
 nnoremap [b :action PreviousTab<CR>
 nnoremap ]b :action NextTab<CR>
+nnoremap gt :action GotoTypeDeclaration<CR>
 
 set ic
 set incsearch
