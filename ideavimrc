@@ -8,6 +8,7 @@ nnoremap s :action AceAction<CR>
 nnoremap [b :action PreviousTab<CR>
 nnoremap ]b :action NextTab<CR>
 nnoremap gt :action GotoTypeDeclaration<CR>
+map <C-n> <Plug>NextWholeOccurrence
 
 set ic
 set incsearch
