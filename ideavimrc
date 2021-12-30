@@ -1,6 +1,4 @@
 nnoremap ; :action RecentFiles<CR>
-nnoremap <C-[> :action GotoAction<CR>
-nnoremap <C-p> :action SearchEverywhere<CR>
 nnoremap \a :action FindInPath<CR>
 nnoremap \n :action ActivateProjectToolWindow<CR>
 nnoremap qb :action CloseContent<CR>
