@@ -1,4 +1,4 @@
-nnoremap ; :action RecentFiles<CR>
+nnoremap ; :action Switcher<CR>
 nnoremap \a :action FindInPath<CR>
 nnoremap \n :action ActivateProjectToolWindow<CR>
 nnoremap qb :action CloseContent<CR>
