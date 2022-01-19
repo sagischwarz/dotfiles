@@ -1,6 +1,7 @@
 [user]
 	name = Sagi Schwarz
 	email = mail@sagischwarz.xyz
+    signingkey = 1EE83B72F09B272B
 [credential]
 	helper = store
 [core]
@@ -34,6 +35,6 @@
 [pager]
 	branch = false
 [commit]
-	gpgsign = false
+	gpgsign = true
 [init]
 	defaultBranch = main
