@@ -18,10 +18,12 @@
 [color]
 	ui = auto
 [alias]
-	lg = log --branches --tags --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	lga = lg --all
 	dt = difftool
-	fm = lg --all -i -F --grep
+	lgng = log --branches --tags --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an [%G?]>%Creset' --abbrev-commit
+    lg = lgng --graph
+	lga = lg --all
+	fm = lgng --all -i -F --grep
+    fc = lgng --all -i -S
 [diff]
 	tool = meld
 	colorMoved = default
