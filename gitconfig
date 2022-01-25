@@ -1,7 +1,7 @@
 [user]
 	name = Sagi Schwarz
 	email = mail@sagischwarz.xyz
-    signingkey = 1EE83B72F09B272B
+	signingkey = 1EE83B72F09B272B
 [credential]
 	helper = store
 [core]
@@ -20,16 +20,17 @@
 [alias]
 	dt = difftool
 	lgng = log --branches --tags --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an [%G?]>%Creset' --abbrev-commit
-    lg = lgng --graph
+	lg = lgng --graph
 	lga = lg --all
 	fm = lgng --all -i -F --grep
-    fc = lgng --all -i -S
+	fc = lgng --all -i -S
 [diff]
 	tool = meld
 	colorMoved = default
+	algorithm = histogram
 [merge]
 	tool = meld
-	conflictstyle = diff3
+	conflictStyle = zdiff3
 [difftool]
 	prompt = false
 [pull]
