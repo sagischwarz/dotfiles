@@ -1,11 +1,19 @@
+let mapleader = "\<Space>"
 nnoremap ; :action Switcher<CR>
-nnoremap \a :action FindInPath<CR>
-nnoremap \n :action ActivateProjectToolWindow<CR>
+nnoremap <leader>a :action FindInPath<CR>
+nnoremap <leader>n :action ActivateProjectToolWindow<CR>
 nnoremap qb :action CloseContent<CR>
 nnoremap s :action AceAction<CR>
 nnoremap [b :action PreviousTab<CR>
 nnoremap ]b :action NextTab<CR>
-nnoremap gt :action GotoTypeDeclaration<CR>
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gD :action GotoTypeDeclaration<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap <leader>d :action ShowErrorDescription<CR>
+nnoremap <leader>D :action ActivateProblemsViewToolWindow<CR>
+nnoremap [d :action GotoNextError<CR>
+nnoremap ]d :action GotoPreviousError<CR>
+nnoremap <C-c> :action SearchEverywhere<CR>
 map <C-n> <Plug>NextWholeOccurrence
 
 set ic
