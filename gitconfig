@@ -8,6 +8,8 @@
 	fileMode = false
 	autocrlf = input
 	pager = delta
+[push]
+	autoSetupRemote = true
 [interactive]
 	diffFilter = delta --color-only
 [delta]
