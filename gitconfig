@@ -17,6 +17,12 @@
 	syntax-theme = Nord
 	line-numbers = true
 	side-by-side = true
+	minus-style = 'red'
+	plus-style = 'green'
+	minus-emph-style = 'black bold red'
+	plus-emph-style = 'black bold green'
+	line-numbers-minus-style = 'red'
+	line-numbers-plus-style = 'green'
 [color]
 	ui = auto
 [alias]
