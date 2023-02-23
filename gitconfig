@@ -14,7 +14,7 @@
 	diffFilter = delta --color-only
 [delta]
 	navigate = true
-	syntax-theme = Nord
+	syntax-theme = none
 	line-numbers = true
 	side-by-side = true
 	minus-style = 'red'
