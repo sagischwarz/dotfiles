@@ -8,6 +8,7 @@
 	fileMode = false
 	autocrlf = input
 	pager = delta
+	editor = \\vim
 [push]
 	autoSetupRemote = true
 [interactive]
@@ -37,6 +38,7 @@
 	tool = meld
 	colorMoved = default
 	algorithm = histogram
+	ignoreSubmodules = dirty
 [merge]
 	tool = meld
 	conflictStyle = zdiff3
