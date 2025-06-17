@@ -34,7 +34,9 @@
 	fc = lg --all -i -S
 	d = diff
 	ds = diff --staged
+	tt = ! git for-each-ref --sort=-creatordate --format '%(creatordate:short) %(objectname:short) %(refname:strip=2)' refs/tags | head -n 10
 [diff]
+	external = difft
 	tool = meld
 	colorMoved = default
 	algorithm = histogram
