@@ -9,7 +9,7 @@ nnoremap ]b :action NextTab<CR>
 nnoremap gd :action GotoDeclaration<CR>
 nnoremap gD :action GotoTypeDeclaration<CR>
 nnoremap gi :action GotoImplementation<CR>
-nnoremap gs :action GotoRelated<CR>
+nnoremap gs :action SwitchHeaderSource<CR>
 nnoremap <leader>d :action ShowErrorDescription<CR>
 nnoremap <leader>D :action ActivateProblemsViewToolWindow<CR>
 nnoremap [d :action GotoNextError<CR>
