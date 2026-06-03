@@ -35,6 +35,7 @@
 	d = diff
 	ds = diff --staged
 	tt = ! git for-each-ref --sort=-creatordate --format '%(creatordate:short) %(objectname:short) %(refname:strip=2)' refs/tags | head -n 10
+	akd = !GIT_COMMITTER_DATE=\"$(git log -1 --format=%cI)\" git commit --amend --date=\"$(git log -1 --format=%aI)\"
 [diff]
 	external = difft
 	tool = meld
