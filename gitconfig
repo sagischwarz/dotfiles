@@ -38,15 +38,19 @@
 	akd = !GIT_COMMITTER_DATE=\"$(git log -1 --format=%cI)\" git commit --amend --date=\"$(git log -1 --format=%aI)\"
 [diff]
 	external = difft
-	tool = meld
+	tool = vscode
 	colorMoved = default
 	algorithm = histogram
 	ignoreSubmodules = dirty
 [merge]
-	tool = meld
+	tool = vscode
 	conflictStyle = zdiff3
 [difftool]
 	prompt = false
+[difftool "vscode"]
+	cmd = code --wait --diff --new-window $LOCAL $REMOTE
+[mergetool "vscode"]
+	cmd = code --wait --new-window $MERGED
 [pull]
 	rebase = true
 [pager]
